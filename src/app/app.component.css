@@ -1,0 +1,35 @@
+.topbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.topbox.menu {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 64px);
+    z-index: 99;
+    float: left;
+    background-color: white;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+.btn-row {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
